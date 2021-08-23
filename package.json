@@ -1,0 +1,19 @@
+{
+  "name": "ailouiseplatform",
+  "version": "1.0.0",
+  "description": "aiLouise Platform backend with NodeJS and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ikoba218/ailouise-platform-backend.git"
+  },
+  "author": "Gabriel Borges",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ikoba218/ailouise-platform-backend/issues"
+  },
+  "homepage": "https://github.com/ikoba218/ailouise-platform-backend#readme"
+}
