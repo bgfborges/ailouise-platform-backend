@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+
+  postgres:
+      image: postgres
+      container_name: "${PROJECT_NAME}_postgress"
+      restart: on-failure:5
+      ports:
+        - "${POSTGRES_PORT}:5432"
+      environment:
+        POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
