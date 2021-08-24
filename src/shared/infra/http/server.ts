@@ -3,8 +3,9 @@ import express from 'express';
 import { routes } from './routes';
 import '@shared/infra/typeorm/index';
 
-
 const app = express();
+
+app.use(express.json());
 
 app.use(routes);
 
